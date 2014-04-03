@@ -50,6 +50,23 @@ tt=(li)
 print tt
 print li==tt
 
+################
+
+print range.__doc__
+s=6
+print "%d is a good number"%7
+li=[23,4,"d34",'ds']
+print [a*2 for a in li]
+dd={23:'ffd','gtg':'f4'}
+print dd.items()
+print dd.keys()
+print ["%s=%s"%(k,v) for k,v in dd.items()]
+print ','.join(["%s=%s"%(k,v) for k,v in dd.items()])
+
+
+
+
+
 
 
 
