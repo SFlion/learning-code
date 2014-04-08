@@ -63,7 +63,8 @@ print dd.keys()
 print ["%s=%s"%(k,v) for k,v in dd.items()]
 print ','.join(["%s=%s"%(k,v) for k,v in dd.items()])
 
-
+f=lambda x,y:x*6+y
+print f(3,4)
 
 
 
